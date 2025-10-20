@@ -4,14 +4,16 @@ from flask import Flask
 
 app = Flask(__name__)
 
+print(__name__)
+
 @app.route('/')
-def hello_world():
-    return 'Hello, World!'
+def homepage():
+    return 'Home Page'
 
 @app.route('/test')
 def test():
     return 'test'
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
- 
+    app.run()
