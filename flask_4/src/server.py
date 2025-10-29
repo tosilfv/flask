@@ -13,10 +13,6 @@ items = [
             {
                 "title": "title_three",
                 "author": "author_three"
-            },
-            {
-                "title": "title_four",
-                "author": "author_four"
             }
         ]
 
